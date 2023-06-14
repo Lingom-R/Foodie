@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: 87cf387e5ff7c55d55049ae2fd5868b8e80b987eec130eeb647c9bb8064f5ca6
       BRANCH_NAME: snyk-fix-90eb77faf008697c1139ab7f342c745b
-      SCAN_ID: cfa6342d82d2a69fb0966a78404d88cadd7cf32bc36dfc1cad2835b7c7ad30ef
+      SCAN_ID: e20b60a89194c1f9542289621cf2396e9cdcd9bcda2cdb46e88080f0eb96a3d7
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://030f-103-176-166-198.ngrok.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://b679-103-176-166-198.ngrok.io/resultparserapi\"\
         }')}}"
