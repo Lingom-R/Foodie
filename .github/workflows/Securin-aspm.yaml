@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: 008c85b5c585384dad381b4eb9e474c6813ab62c50f9949e4543fce006b4ae53
       BRANCH_NAME: snyk-fix-583307897e627196e8d1d7c706b6e969
-      SCAN_ID: 0b746eaa8c9ef673611865baf3552a1b6d96254d2676a274259299ff04fd4a25
+      SCAN_ID: 2f23ab58371554dbc8b15e9f1ed68a44ccdf35c40de5861103badd86b3ec9438
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.uat.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.uat.securin.io/resultparserapi\"\
         }')}}"
